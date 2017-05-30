@@ -9,13 +9,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "istok web", Helvetica, Arial, sans-serif;
 }
 h2 {
-  font-size:28 px;
+  font-size:28px;
   font-weight: normal;
-  margin-bottom: 5 px;
+  margin-bottom: 5px;
 }
 p {
-  font-size:16 px;
-  line-height: 19 px;
+  font-size:16px;
+  line-height: 19px;
   font-weight: 100;
 }
 
@@ -24,8 +24,8 @@ p {
  .container {
    margin-right: auto;
    margin-left: auto;
-   padding-left: 15 px;
-   padding-right: 15 px;
+   padding-left: 15px;
+   padding-right: 15px;
    position: relative;
  }
  .container:before,
@@ -40,18 +40,18 @@ p {
    width:96%;
    float:left;
    position:relative;
-   min-height: 1 px;
-   margin:0 2% 20 px;
+   min-height: 1px;
+   margin:0 2% 20px;
  }
 
- @media (min-width: 768 px) {
+ @media (min-width: 768px) {
   .container {
-    width: 750 px;
+    width: 750px;
   }
 }
-@media (min-width: 992 px) {
+@media (min-width: 992px) {
   .container {
-    width: 970 px;
+    width: 970px;
   }
   .one-half {
     width:46%;
@@ -63,7 +63,7 @@ p {
     width:21%;
   }
 }
-@media (min-width: 1200 px) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
