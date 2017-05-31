@@ -71,35 +71,52 @@ p {
 /* HEADER */
  header {
    color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
- }
- header nav {
-   padding:1em 0;
- }
- header nav ul {
-   display:inline;
-   text-align: right;
-   float:right;
-   margin:0;
- }
- header nav ul > li {
-   list-style-type: none;
-   display: inline-block;
-   margin:0 15px;
- }
- header nav ul > li.btn-outline {
-   padding:10px 15px;
-   border:2px solid #FFFFFF;
-   border-radius: 4px;
- }
- header nav ul > li.btn-outline:hover {
-   background:#FFFFFF;
- }
- header nav ul > li > a {
-   color:#FFFFFF;
-   text-decoration: none;
- }
- header nav ul > li.btn-outline:hover > a {
-   color:#34495E;
- }
+ background: #FFFFFF;
+ background-image: linear-gradient(206deg, #FFFFFF 0%, #254b7f 94%);
+}
+header nav {
+  padding: 1em 0;
+}
+header nav ul {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin:0;
+}
+header nav ul > li.btn-outline {
+  padding 10px 15px;
+  border:2px solid #FFFFFF
+  border-radius:5px;
+}
+header nav ul > li > a {
+  color: #ffffff
+  text-decoration: none;
+}
+header nav ul > li.btn-outline:hover > a {
+  color: #FFFFFF;
+}
+header .hero{
+  text-align: center;display:block;
+  position: relative;
+}
+header .hero h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin:95px 0 0;
+}
+header .hero p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 100;
+  margin:10px 0 40px;
+
+  /*BUTTONS */
+  .btn {
+    border-radius: 4px;
+    color:#FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    padding:10px 30px;
+    backround: #2ECC71;
+    box-shadow: 0px 2px 0px 0pc #22894E;
+  }
