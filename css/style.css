@@ -7,6 +7,15 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "istok web", Helvetica, Arial, sans-serif;
+
+}
+
+h1{
+  <a href="#" class= "button animated shake">Example!</a> 
+font-size: 40px;
+font-weight: normal;
+
+
 }
 h2 {
   font-size:28px;
@@ -43,6 +52,11 @@ p {
    min-height: 1px;
    margin:0 2% 20px;
  }
+
+
+
+
+
 
  @media (min-width: 768px) {
   .container {
@@ -124,5 +138,3 @@ header .hero p {
     float: right;
     margin-left: 10px;
   }
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
