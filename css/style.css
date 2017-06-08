@@ -412,9 +412,9 @@ footer .logo {
  .left-nav .items p {
    font-weight: 600;
    text-transform: uppercase;
-   font-size: 12px;
+   font-size:12px;
    color: #E2E2E2;
-   line-height: 15px;
+   line-height:15px;
 
  }
  .left-nav .items ul {
@@ -497,22 +497,42 @@ margin-top:8px;
 }
 .content-item {
   width:96%;
-  margin:0 2% 25px;
+  margin:0 2% 15px;
   float:left;
   display:block;
 }
 .item-box {
   display:block;
-  height:230px;
+  height:150px;
+  width: 150px;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
   position: relative;
   overflow: hidden;
   padding:20px;
 }
-/*larger mobile devices */
+/*smaller mobile devices */
 
-@medua (min-width:460px) {
+@media (min-width:130px) {
+  .content {
+    padding:1.5em 1%;
+    float:left;
+    width:90%;
+    position: relative;
+
+  }
+
+  .content-item {
+    width:46%;
+    margin:10px 1% 25px;
+    float:left;
+    display:block;
+
+}
+
+/*larger smaller*/
+
+@media (min-width:460px) {
   .content {
     padding:1.5em 1%;
     float:right;
@@ -520,13 +540,15 @@ margin-top:8px;
     position: relative;
 
   }
+
   .content-item {
     width:46%;
-    margin:0 2% 25px;
+    margin:0 1% 25px;
     float:left;
     display:block;
-  }
+
 }
+
 /* tablets */
 @media (min-width:768px) {
   .content {
@@ -554,6 +576,41 @@ margin-top:8px;
   }
   .content > .container {
     width:auto;
+  }
+  .content-item {
+    width:23%;
     margin:0 1% 25px;
   }
 }
+.item-box > img {
+   position:absolute;
+   height:100%;
+   width:auto;
+   top:0;
+   left:0;
+   right:0;
+ }
+ .item-box h2 {
+   font-family: "Noticia text", Helvetica, Arial, sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 17px;
+   margin:0;
+ }
+ .item-box h2 a {
+   color: #3498DB;
+   text-decoration: none;
+ }
+ .item-box h2 img {
+   width:16px;
+   height:16px;
+   position:relative;
+   top:2px;
+   margin-right:5px;
+ }
+ .item-box p {
+   font-size: 14px;
+   color: #333333;
+   line-height: 18px;
+   margin:5px 0 0;
+ }
