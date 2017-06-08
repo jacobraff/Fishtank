@@ -9,8 +9,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "istok web", Helvetica, Arial, sans-serif;
 
 }
-
-
+ul {
+  list-style: none;
 }
 
 
@@ -314,12 +314,17 @@ padding: 10px 0;
 }
 
 .lastCall {
-  position: relative;
-  padding-top: 50px;
-  padding-left: 300px;
   text-align: center;
   float: center;
 }
+@media (min-width:600px){
+  .lastCall {
+    padding-top:50px;
+    padding-left:180px;
+  }
+}
+
+
 
 
 
