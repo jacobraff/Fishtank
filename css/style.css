@@ -436,6 +436,11 @@ footer .logo {
  }
 
 /* LEFT NAVBAR SETTINGS */
+
+.Aitems {
+  background-color: #FFFFFF;
+}
+
 .left-nav .settings {
    position:absolute;
    background:#22303E;
