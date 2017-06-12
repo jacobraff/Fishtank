@@ -20,6 +20,8 @@ rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="Image.html">
+<link rel="stylesheet" href="css/dropit.css">
+<link rel="stylesheet" href="js/jquery-3.2.1.min.js">
 
   </head>
 
@@ -70,7 +72,16 @@ rel="stylesheet">
     <div class="container">
       <div class="header">
         <h1>All Items</h1>
+        <ul class="menu">
+          <li>
         <a href="#" class="btn">+ Add</a>
+        <ul>
+    <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+    <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+    <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+</ul>
+</li>
+</ul>
       </div>
     </div>
     <div class="container">
@@ -147,4 +158,9 @@ rel="stylesheet">
 
 
   </body>
+  <script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/dropit.js"></script>
+<script type="text/javascript">
+$(".menu").dropit();
+
   </html>
