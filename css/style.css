@@ -144,7 +144,7 @@ header .hero p {
 .pricing {
   background: #34495E url("/Users/jacobraff/Desktop/Fishtank/images/Rectangle.png") top center no-repeat;
    background: url("/Users/jacobraff/Desktop/Fishtank/images/Rectangle.png") top center no-repeat, linear-gradient(206deg, #5F81A# 0%, #34495E 94%)
-    top center no-repeat, linear-gradient(145deg, #5F81A3 0%, #34495E 94%)
+    top center no-repeat, linear-gradient(145deg, #5F81A3 0%, #34495E 94%);
     background-size: cover;
     text-align: center;
     padding:4em 0;
@@ -157,9 +157,7 @@ header .hero p {
    @media (min-width: 400px) {
     .container {
       width: 750px;
-      padding-top: 100px;
-      float:left;
-      text-align: center;
+
     }
   }
 
@@ -399,6 +397,10 @@ footer .logo {
 
 
  /* DASHBOARD */
+
+ .Aitems .fa-fa-link {
+   padding: 15px;
+ }
  .dashboard {
    background:#F7F7F7;
  }
@@ -470,7 +472,7 @@ footer .logo {
   }
 }
 
- }
+
  .left-nav {
    height: 100vh;
    width:14.66666667%;
