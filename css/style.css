@@ -154,9 +154,12 @@ header .hero p {
 
 
 
-   @media (min-width: 768px) {
+   @media (min-width: 400px) {
     .container {
       width: 750px;
+      padding-top: 100px;
+      float:left;
+      text-align: center;
     }
   }
 
@@ -385,6 +388,16 @@ footer .logo {
    }
  }
 
+
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+
+
+
+
+
  /* DASHBOARD */
  .dashboard {
    background:#F7F7F7;
@@ -583,7 +596,7 @@ footer .logo {
 
 
 /* Larger Mobile Devices */
- @media (min-width:460px) {
+ @media (min-width:768px) {
    .content {
      padding:1.5em 1%;
      float:right;
