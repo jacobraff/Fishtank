@@ -21,11 +21,12 @@ rel="stylesheet">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="Image.html">
 <link rel="stylesheet" href="css/dropit.css">
-<link rel="stylesheet" href="js/jquery-3.2.1.min.js">
 
   </head>
 
   <body class="dashboard">
+<!-- RESPONSIVE NAV -->
+<a class="hamburger" id="menu" href="#">&#9776;</a>
 
 <!-- LEFT NAV -->
 
@@ -157,10 +158,16 @@ rel="stylesheet">
 
 
 
-  </body>
+
   <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/dropit.js"></script>
 <script type="text/javascript">
 $(".menu").dropit();
+$("#menu").click(function(){
+  $("#left-nav").toggleClass("open", 200);
 
+
+});
+</script>
+</body>
   </html>
