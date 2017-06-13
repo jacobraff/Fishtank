@@ -25,7 +25,9 @@ p {
   line-height: 19px;
   font-weight: 100;
 }
-
+.laptop{
+  float: left;
+}
 
  /* GRID */
  .container {
@@ -157,6 +159,7 @@ header .hero p {
    @media (min-width: 400px) {
     .container {
       width: 300px;
+
 
     }
   }

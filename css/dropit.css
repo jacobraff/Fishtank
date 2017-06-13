@@ -58,3 +58,73 @@ border-radius: 4px;
  font-family: "Noticia text", Helvetica, Arial, sans-serif;
  font-weight:100;
 }
+
+
+/*-- make a new class account settings popup menu worked however now something
+is causing it to not react before causing more damage pushing to git now
+6-13-2017 12:50pm */
+
+
+.settings li .popup {
+  bottom: 100%;
+  float: bottom;
+  margin-bottom: 100px;
+  font-size: 14;
+}
+
+
+
+
+
+.settings .dropit {
+    list-style: none;
+
+  float: right;
+
+
+}
+.settings .dropit .dropit-trigger { position: relative; }
+.settings .dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 100px;
+    list-style: none;
+	padding: 20;
+	margin: 20px 0 0;
+}
+.settings .dropit .dropit-open .dropit-submenu {
+  display: block;
+background: #FFFFFF;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+border-radius: 4px;
+}
+.settings.dropit .dropit-open .dropit-submenu:after {
+  content:" ";
+  position: absolute;
+  border-style: solid;
+  border-width: 0 8px 8px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -8px;
+  right: 10px;
+}
+.settings.dropit .dropit-open .dropit-submenu li {
+ display: block;
+ margin-bottom: 20px;
+
+}
+.settings .dropit .dropit-open .dropit-submenu li:last-child {
+ margin-bottom: 0px;
+
+}
+.settings .dropit .dropit-open .dropit-submenu li a {
+ color:#34495E;
+ text-decoration: none;
+ font-family: "Noticia text", Helvetica, Arial, sans-serif;
+ font-weight:100;
+}
