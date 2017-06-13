@@ -156,7 +156,7 @@ header .hero p {
 
    @media (min-width: 400px) {
     .container {
-      width: 750px;
+      width: 300px;
 
     }
   }
