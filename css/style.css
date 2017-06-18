@@ -436,7 +436,7 @@ footer .logo {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
- .hamburger {
+ .hamburger .popup {
    position:absolute;
    z-index: 1000;
    background:#34495E;
@@ -470,7 +470,7 @@ footer .logo {
     -o-transform: translate(0,0); /** Opera **/
     -moz-transform: translate(0,0); /** Firefox **/
   }
-  .hamburger {
+  .hamburger  {
     display:none;
   }
 }
