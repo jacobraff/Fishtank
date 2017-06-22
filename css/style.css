@@ -525,6 +525,8 @@ footer .logo {
 
 .Aitems {
   background-color: #FFFFFF;
+  margin: 15px;
+
 }
 
 .left-nav .settings {
@@ -646,4 +648,16 @@ footer .logo {
      width:23%;
      margin:0 1% 25px;
    }
+ }
+
+ .settings .dropit .dropit-submenu.menu-up {
+   top: -70px;
+   margin: 10px;
+   width: 150px;
+   height: 90px;
+ }
+ .settings .dropit .dropit-submenu.menu-up:after {
+   border-width:8px
+   bottom: -8px;
+   top: auto;
  }
